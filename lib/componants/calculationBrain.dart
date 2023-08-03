@@ -27,7 +27,7 @@ class calculationBrain {
   String getInterpretation() {
     if (_BMI >= 25) {
       return "You need to play more sports and eat healthy food!";
-    } else if (_BMI > 18) {
+    } else if (_BMI > 18.5) {
       return "You have a normal body weight. Good job!";
     } else {
       return "You need to eat more and choose a healthy food!";
