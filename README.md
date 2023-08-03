@@ -1,4 +1,3 @@
-<img width="266" alt="Screenshot 2023-08-03 144116" src="https://github.com/MYMurtada/BMI-Calculator/assets/118128637/5c3706f9-62f5-458e-8205-c8975c5f3cd4"># BMI-Calculator
 This Flutter project is a complete app that can be published and designed. 
 
 the app contains only 3 screens :
