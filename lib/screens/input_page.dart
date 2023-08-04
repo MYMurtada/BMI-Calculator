@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:bmi_calculator/screens/resultsPage.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -200,8 +202,9 @@ class _InputPageState extends State<InputPage> {
                 child: bottomButton(
                   label: "CALCULATE",
                   onTap: () {
-                    calculationBrain result =
-                        calculationBrain(weight: weight, height: height);
+                    double bmi = (weight / pow(height / 100, 2));
+                    calculationBrain result = calculationBrain(
+                        weight: weight, height: height, BMI: bmi);
                     Navigator.push(
                         context,
                         MaterialPageRoute(
